@@ -1,0 +1,30 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	height: auto;
+}
+#container {
+	width: 960px; 
+	height: 0px auto; 
+	background-color: lightgray;
+	margin: 50px;
+}
+
+#top div {
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;
+}
+#top div img {
+	display: inline-block;
+	margin-top: 50px;
+	padding-right: 30px;
+}
+button {
+	background-color: green; 
+	color:white;
+	margin:50px 10px 50px 50px;
+	width: 100px;
+	height: 40px;
+}

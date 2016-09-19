@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diappearing Ninja</title>
+	<link rel="stylesheet" type="text/css" href="ninja.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('img').click (function(){
+			$(this).hide();
+
+		});
+		$("button").click (function(){
+			$("img").show("slow");
+
+		});
+
+	});
+
+
+
+	</script>
+
+</head>
+<body>
+	<div id= "container">
+		<div id= "top">
+			<div>
+				 <img src="ninja1" id = "image1" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image2" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image3" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image4" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image5" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image6" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image7" alt = "ninja">
+			 </div>
+			 <div>
+				 <img src="ninja1" id = "image8" alt = "ninja">
+			 </div>
+		</div>
+		<button>Restore</button>
+
+	</div>
+	
+
+
+</body>
+</html>
